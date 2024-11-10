@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+option java_package = "proto";
+
+message JwtRequest {
+  string username = 1;
+  string password = 2;
+}
+message AddUserRequest{
+  int32 id_user=1;
+  string username = 2;
+  string password = 3;
+  string role=4;
+}
+message AddUserResponse {
+  bool success = 1;
+  int32 id_user=2;
+  string username = 3;
+  string role = 4;
+}
+
+message ValidateRequest{
+  string jwtToken =1;
+}
+
+message ValidateResponse{
+  string username = 1;
+  string role = 2;
+  bool status = 3;
+}
+
+message JwtToken{
+  string jwtToken = 1;
+}
+message LogoutRequest {
+  string jwtToken = 1;
+}
+
+message LogoutResponse {
+  bool success = 1;
+  string message = 2;
+}
+
+service AuthService{
+  rpc authenticate(JwtRequest) returns (JwtToken){}
+  rpc validate(ValidateRequest) returns (ValidateResponse){}
+  rpc addUser(AddUserRequest) returns (AddUserResponse) {}
+  rpc Logout(LogoutRequest) returns (LogoutResponse);
+}

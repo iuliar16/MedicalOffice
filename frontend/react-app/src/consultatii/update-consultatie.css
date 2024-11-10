@@ -1,0 +1,50 @@
+.update-consultatie {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.update-consultatie h1, .update-consultatie h3 {
+    color: #333;
+    text-align: center;
+}
+
+.update-consultatie form {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.update-consultatie label, .update-consultatie .investigatie {
+    display: block;
+    margin-top: 10px;
+}
+
+.update-consultatie input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.update-consultatie button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.update-consultatie button:hover {
+    background-color: #45a049;
+}

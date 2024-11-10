@@ -1,0 +1,43 @@
+
+.solicita-programare {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.solicita-programare h1 {
+    color: #333;
+    text-align: center;
+}
+
+.solicita-programare form {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.solicita-programare label {
+    display: block;
+    margin-top: 10px;
+}
+
+.solicita-programare button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.solicita-programare button:hover {
+    background-color: #45a049;
+}

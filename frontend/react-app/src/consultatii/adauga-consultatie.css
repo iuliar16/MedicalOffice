@@ -1,0 +1,51 @@
+
+.adauga-consultatie {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.adauga-consultatie h1, .adauga-consultatie h3 {
+    color: #333;
+    text-align: center;
+}
+
+.adauga-consultatie form {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.adauga-consultatie label, .adauga-consultatie .investigatie {
+    display: block;
+    margin-top: 10px;
+}
+
+.adauga-consultatie input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.adauga-consultatie button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.adauga-consultatie button:hover {
+    background-color: #45a049;
+}

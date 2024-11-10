@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Client/Client.iml" filepath="$PROJECT_DIR$/Client/Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Client.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Client.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Doctor/Doctor.iml" filepath="$PROJECT_DIR$/Doctor/Doctor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Doctor.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Doctor.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Doctor.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Doctor.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pacient/Pacient.iml" filepath="$PROJECT_DIR$/Pacient/Pacient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pacient.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Pacient.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pacient.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Pacient.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programare/Programare.iml" filepath="$PROJECT_DIR$/Programare/Programare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Programare.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Programare.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Programare.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Programare.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project_POS.iml" filepath="$PROJECT_DIR$/Project_POS.iml" />
+    </modules>
+  </component>
+</project>

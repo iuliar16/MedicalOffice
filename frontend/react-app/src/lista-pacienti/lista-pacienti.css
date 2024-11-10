@@ -1,0 +1,35 @@
+.lista-pacienti {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.lista-pacienti h1 {
+    color: #333;
+    text-align: center;
+}
+
+.pacienti {
+    margin-top: 20px;
+}
+
+.pacient{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pacient h3 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+.pacient p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
