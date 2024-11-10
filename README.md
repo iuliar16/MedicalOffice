@@ -1,24 +1,26 @@
-# POS - solutii laborator/proiect
+# Medical Office Management System
 
-| **Deadline&nbsp;general** | **_21.01.2024_** (_duminica, S14_) |
-| :--- | :--- |
-| **_Branch_ proiect** | Acest _branch_ va fi folosit de studentii care doresc sa dezvolte proiectul propus pentru disciplina. _Commit_-urile trebuie realizate saptamanal. Codurile sursa vor fi organizate pe module, iar in cadrul fiecauri astfel de modul se vor incarca un set de _log_-uri demonstrative. |
-| **_Branch_&nbsp;laborator** | Acest _branch_ va fi folosit de studentii care se vor concentra doar pe aplicatiile de baza propuse incepand din laboratorul al patrulea. Pentru fiecare laborator se va crea cate un director separat in cadrul caruia se vor incarca fisierele sursa, alaturi de un set de _log_-uri demonstrative.<br/><br/>**_Fiecare laborator are un deadline de maxim doua saptamani de la data finalizarii acestuia!! Commit-urile ulterioare NU vor fi considerate in evaluare_** |
-| **_Branch_&nbsp;RMI-SOAP** | Acest _branch_ va fi folosit pentru a incarca fisierele sursa corespunzatoare _laboratoarelor 1_ si _2_. **_Deadline_**: **_19.11.2023_** |
+This project is a web application designed to manage a medical office. The system supports various user accounts, including doctors, patients, and an administrator, and provides CRUD operations for patient records, appointments, and user account management.
 
-## Evaluare
+## Features
+##### User Accounts: Separate roles for doctors, patients, and administrators, each with specific permissions and functionalities.
+##### Authentication: Secure login using gRPC, ensuring data security and privacy in compliance with medical data standards.
+##### Appointment Management: Patients can book appointments with doctors based on availability; doctors can manage their schedule.
 
-Evaluarea activitatii de laborator consta in evaluarea solutiilor incarcate, urmarind:
+## CRUD Operations:
+##### Patients can manage their personal information.
+##### Doctors can view and update patient records (with permissions).
+##### Admins have full control over managing users, including adding, editing, and removing accounts.
+##### Frontend: Built with React.js for a responsive and user-friendly experience.
+##### Backend: Developed with Spring Boot to provide reliable RESTful APIs and services.
+##### Python Gateway: Facilitates communication between frontend and backend, acting as an intermediary to handle data processing tasks and service orchestration.
 
-- respectarea standardelor si a recomandarilor corespuzatoare tipului de serviciu analizat;
-- calitatea codului sursa;
-- gradul de indeplinire a cerintelor propuse.
+## Tech Stack
+##### Frontend: React.js, Axios for API requests
+##### Backend: Spring Boot (Java), gRPC for secure communications
+##### Authentication: gRPC-based service to handle authentication, integrated with user roles and permissions
+##### Python Gateway: Middleware for handling requests and data flow between frontend and backend
+##### Database: PostgreSQL, MongoDB
 
-Solutiile **_remarcabile_** pot atrage bonusuri pentru nota de examen/media corespunzatoare disciplinei.
 
-## Link-uri utile
 
-1. **Markdown** - limbaj de prezentare "pretty" pentru o documentatie `git` (in cazul in care considerati utila o scurta descriere a implementarii <https://www.markdownguide.org>)
-	- sintaxa de baza: <https://www.markdownguide.org/basic-syntax/>
-	- _cheat-sheet_: <https://www.markdownguide.org/cheat-sheet/>
-2. **Github** - comenzi uzuale: <https://education.github.com/git-cheat-sheet-education.pdf>
